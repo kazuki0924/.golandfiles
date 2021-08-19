@@ -1,0 +1,154 @@
+" leader
+let mapleader=" "
+
+" plugins
+" https://github.com/JetBrains/ideavim/wiki/Emulated-plugins
+set easymotion
+set NERDTree
+set surround
+set multiple-cursors
+set commentary
+set ReplaceWithRegister
+set argtextobj
+set exchange
+set textobj-entire
+set highlightedyank
+set vim-paragraph-motion
+set textobj-indent
+
+" plugin settings
+let g:argtextobj_pairs="[:],(:),<:>"
+
+" common settings
+" https://github.com/JetBrains/ideavim/wiki/%22set%22-commands
+set clipboard=unnamedplus,unnamed,ideaput
+set ignorecase
+set incsearch
+set number
+set relativenumber
+set scrolloff=5
+set showmode
+set showcmd
+set smartcase
+set visualbell
+
+" IDEA specific settings
+set ideamarks
+set ideajoin
+set idearefactormode=keep
+set ideastatusicon=gray
+set ideawrite=file
+set ideavimsupport=dialog
+
+" GoLand mappings 
+
+" general
+map <leader>a <Action>(GotoAction)
+map <leader>o <Action>(FileStructurePopup)
+" use built in search
+map / <Action>(Find)
+" but preserve ideavim search
+map g/ /
+map <leader>p <Action>(FindInPath)
+map <leader>c <Action>(CallHierarchy)
+
+" debug
+map <leader>db <Action>(ToggleLineBreakpoint)
+map <leader>dd <Action>(Debug)
+map <leader>dx <Action>(Stop)
+map <leader>dn <Action>(StepOver)
+map <leader>d<Space> <Action>(Resume)
+map <leader>dr <Action>(ChooseRunConfiguration)
+
+" NERDTree
+map <leader>ee ;NERDTreeFocus<CR>
+map <leader>ex ;NERDTreeClose<CR>
+map <leader>et ;NERDTreeToggle<CR>
+map <leader>ef ;NERDTreeFind<CR>
+
+" recent
+map <leader>erf <Action>(RecentFiles)
+map <leader>erp <Action>(RecentProjectListGroup)
+
+" project view
+map <leader>ep <Action>(SelectInProjectView)
+map <leader>ep <Action>(SelectInProjectView)
+
+" easymotion
+map <leader>f <Plug>(easymotion-s)
+map <leader>e <Plug>(easymotion-f)
+
+" jump on code
+map gd <Action>(GotoDeclaration)
+map gs <Action>(GotoSuperMethod)
+map gi <Action>(GotoImplementation)
+map gf <Action>(GotoFile)
+map gb <Action>(JumpToLastChange)
+map gu <Action>(ShowUsages)
+map gt <Action>(GotoTest)
+" use builtin navigation actions
+map <C-o> <Action>(Back)
+map <C-i> <Action>(Forward)
+" but preserve ideavim defaults
+map g<c-o> <c-o>
+map g<c-i> <c-i>
+
+" code editing
+map <leader>p <Action>(PasteMultiple)
+map <leader>rr <Action>(RenameElement)
+map <leader>ri <Action>(ShowIntentionActions)
+map <leader>rf <Action>(ReformatCode)
+map <leader>rs <Action>(QuickJavaDoc)
+map <leader>rs <Action>(EditorUnSelectWord)
+
+" show information
+map <leader>ii <Action>(QuickJavaDoc)
+map <leader>in <Action>(GotoNextError)
+map <leader>ip <Action>(GotoPreviousError)
+map <leader>ir <Action>(ShowErrorDescription)
+map <leader>iq <Action>(QuickImplementations)
+
+" buffers
+map <leader>bb <Action>(Switcher)
+map <leader>bx <Action>(CloseEditor)
+map <leader>bf <Action>(ShowFilePath)
+map <leader>bk <Action>(PinActiveEditorTab)
+map <leader>bl <Action>(RecentLocations)
+map <leader>bq <Action>(CloseAllUnpinnedEditors)
+map <leader>bt <Action>(CloseAllEditorsButActive)
+map <leader>bN <Action>(NewElementSamePlace)
+map <leader>bn <Action>(NextTab)
+map <leader>bp <Action>(PreviousTab)
+map <leader>bs <Action>(NewScratchFile)
+
+" pane
+map <leader>ws <Action>(SplitHorizontally)
+map <leader>wv <Action>(SplitVertically)
+map <leader>wc <Action>(Unsplit)
+map <leader>wC <Action>(UnsplitAll)
+
+" git
+map <leader>vh <Action>(Vcs.ShowTabbedFileHistory)
+map <leader>vc <Action>(Vcs.Show.Local.Changes)
+map <leader>vq <Action>(Vcs.QuickListPopupAction)
+map <leader>va <Action>(Annotate)
+map <leader>vl <Action>(Vcs.Show.Log)
+map <leader>vd <Action>(Compare.LastVersion)
+
+" misc
+map <leader>ms ;source ~/.ideavimrc<CR>
+map <leader>ma ;action<CR>
+map <leader>ml ;actionlist<CR>
+
+" don't use Ex mode, use Q for formatting
+map Q gqap
+map Q gq
+
+" moving
+map [e <Action>(MoveLineUp)
+map ]e <Action>(MoveLineDown)
+map [s <Action>(MoveStatementUp)
+map ]s <Action>(MoveStatementDown)
+
+" load common basic keymaps
+source ~/.nvimfiles/vimscripts/keymap/common.vim
