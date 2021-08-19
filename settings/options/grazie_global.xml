@@ -1,0 +1,139 @@
+<application>
+  <component name="GraziConfig">
+    <option name="userEnabledRules">
+      <set>
+        <option value="LanguageTool.EN.ON_TWO_SEPARATE_OCCASIONS" />
+        <option value="LanguageTool.EN.NOT_UNLIKE" />
+        <option value="LanguageTool.EN.BASIS_ON_A" />
+        <option value="LanguageTool.EN.DUE_TO_THE_FACT" />
+        <option value="LanguageTool.EN.WHAT_I_MEAN_TO_SAY_IS_THAT" />
+        <option value="LanguageTool.EN.AT_YOUR_EARLIEST_CONVENIENCE" />
+        <option value="LanguageTool.EN.O_CONNOR" />
+        <option value="LanguageTool.EN.REGARD_AS_BEING" />
+        <option value="LanguageTool.EN.ALL_THINGS_CONSIDERED" />
+        <option value="LanguageTool.EN.WIKIPEDIA_CONTRACTIONS" />
+        <option value="LanguageTool.EN.OBTAIN" />
+        <option value="LanguageTool.EN.REFERRING_BACK" />
+        <option value="LanguageTool.EN.FOR_THE_PURPOSE_OF" />
+        <option value="LanguageTool.EN.ACCURATE" />
+        <option value="LanguageTool.EN.NOT_ACCEPT" />
+        <option value="LanguageTool.EN.HAVE_A_TENDENCY" />
+        <option value="LanguageTool.EN.MAJORITY" />
+        <option value="LanguageTool.EN.THE_TRUTH_OR_FACT_IS" />
+        <option value="LanguageTool.EN.ASSIST_ASSISTANCE" />
+        <option value="LanguageTool.EN.ACQUIRE" />
+        <option value="LanguageTool.EN.HASH_SYMBOL" />
+        <option value="LanguageTool.EN.IN_THE_AFFIRMATIVE" />
+        <option value="LanguageTool.EN.EN_QUOTES" />
+        <option value="LanguageTool.EN.PLUS_MINUS" />
+        <option value="LanguageTool.EN.APOSTROPHE_VS_QUOTE" />
+        <option value="LanguageTool.EN.CURRENTLY" />
+        <option value="LanguageTool.EN.AT_ALL_TIMES" />
+        <option value="LanguageTool.EN.QUESTION_X_WHETHER" />
+        <option value="LanguageTool.EN.TIME_NOW" />
+        <option value="LanguageTool.EN.DESPITE_THE_FACT" />
+        <option value="LanguageTool.EN.SUFFICIENT" />
+        <option value="LanguageTool.EN.AS_A_MATTER_OF_FACT" />
+        <option value="LanguageTool.EN.COMMA_PERIOD_CONFUSION" />
+        <option value="LanguageTool.EN.FOR_THE_MOST_PART" />
+        <option value="LanguageTool.EN.CAPITALIZATION_NNP_DERIVED" />
+        <option value="LanguageTool.EN.IN_THE_NEIGHBORHOOD_OF" />
+        <option value="LanguageTool.EN.BECAUSE" />
+        <option value="LanguageTool.EN.NOT_CERTAIN" />
+        <option value="LanguageTool.EN.ON_THE_OTHER_HAND" />
+        <option value="LanguageTool.EN.TYPE_OF" />
+        <option value="LanguageTool.EN.THE_UNDERSIGNED" />
+        <option value="LanguageTool.EN.ABUNDANCE" />
+        <option value="LanguageTool.EN.CD_TH" />
+        <option value="LanguageTool.EN.R_SYMBOL" />
+        <option value="LanguageTool.EN.BE_ADVISED" />
+        <option value="LanguageTool.EN.ACCOMPLISH" />
+        <option value="LanguageTool.EN.ARROWS" />
+        <option value="LanguageTool.EN.IN_TERMS_OF" />
+        <option value="LanguageTool.EN.TRADEMARK" />
+        <option value="LanguageTool.EN.APOS_SPACE_CONTRACTION" />
+        <option value="LanguageTool.EN.WIKIPEDIA_12_PM" />
+        <option value="LanguageTool.EN.EN_DASH_RULE" />
+        <option value="LanguageTool.EN.UNTIL_SUCH_TIME_AS" />
+        <option value="LanguageTool.EN.ACCRUE" />
+        <option value="LanguageTool.EN.IN_THE_CASE_OF" />
+        <option value="LanguageTool.EN.IN_A_MANNER_OF_SPEAKING" />
+        <option value="LanguageTool.EN.SOONER_RATHER_THAN_LATER" />
+        <option value="LanguageTool.EN.AS_PER" />
+        <option value="LanguageTool.EN.NON_STANDARD_QUESTION_MARK" />
+        <option value="LanguageTool.EN.EACH_AND_EVERY_NOUN" />
+        <option value="LanguageTool.EN.MAKE_DECISIONS_ABOUT" />
+        <option value="LanguageTool.EN.IN_A_VERY_REAL_SENSE" />
+        <option value="LanguageTool.EN.WHITESPACE_RULE" />
+        <option value="LanguageTool.EN.CLEARLY_OR_OBVIOUSLY" />
+        <option value="LanguageTool.EN.WITH_OR_IN_REFERENCE_OR_REGARD_TO" />
+        <option value="LanguageTool.EN.BE_A_X_ONE" />
+        <option value="LanguageTool.EN.NOT_THE_SAME" />
+        <option value="LanguageTool.EN.WORTHWHILE" />
+        <option value="LanguageTool.EN.MULTIPLICATION_SIGN" />
+        <option value="LanguageTool.EN.WIKIPEDIA_12_AM" />
+        <option value="LanguageTool.EN.STATE-OF-THE-ART" />
+        <option value="LanguageTool.EN.COPYRIGHT" />
+        <option value="LanguageTool.EN.IN_THE_PROCESS_OF" />
+        <option value="LanguageTool.EN.FOR_ALL_INTENTS_AND_PURPOSES" />
+        <option value="LanguageTool.EN.HYPOTHESIS_TYPOGRAPHY" />
+        <option value="LanguageTool.EN.THAT_EXISTS" />
+        <option value="LanguageTool.EN.ELLIPSIS" />
+        <option value="LanguageTool.EN.WRONG_APOSTROPHE" />
+        <option value="LanguageTool.EN.DRAW_ATTENTION" />
+        <option value="LanguageTool.EN.IN_THE_NATURE_OF" />
+        <option value="LanguageTool.EN.HAVE_THE_ABILITY_TO" />
+        <option value="LanguageTool.EN.SOLICIT_FOR" />
+        <option value="LanguageTool.EN.APOSTROPHE_IN_DAYS" />
+        <option value="LanguageTool.EN.TIRED_INTENSIFIERS" />
+        <option value="LanguageTool.EN.IN_THE_EVENT" />
+        <option value="LanguageTool.EN.NOT_VERY_OFTEN" />
+        <option value="LanguageTool.EN.ACCELERATE" />
+        <option value="LanguageTool.EN.NOT_ABLE" />
+        <option value="LanguageTool.EN.SENTENCE_WHITESPACE" />
+        <option value="LanguageTool.EN.NON_STANDARD_COMMA" />
+        <option value="LanguageTool.EN.COMMA_PARENTHESIS_WHITESPACE" />
+        <option value="LanguageTool.EN.TL_DR" />
+        <option value="LanguageTool.EN.IN_MY_OPINION" />
+        <option value="LanguageTool.EN.EMPHATIC_REFLEXIVE_PRONOUNS" />
+        <option value="LanguageTool.EN.CURRENCY_SPACE" />
+        <option value="LanguageTool.EN.ACCOMPANY" />
+        <option value="LanguageTool.EN.in_excess_of" />
+        <option value="LanguageTool.EN.NOT_MANY" />
+        <option value="LanguageTool.EN.DOUBLE_APOSTROPHE" />
+        <option value="LanguageTool.EN.READABILITY_RULE_SIMPLE" />
+        <option value="LanguageTool.EN.BY_MEANS_OF" />
+        <option value="LanguageTool.EN.IT_SEEMS_OR_APPEARS_THAT" />
+        <option value="LanguageTool.EN.TAKE_ACTION_TO" />
+        <option value="LanguageTool.EN.SPURIOUS_APOSTROPHE" />
+        <option value="LanguageTool.EN.EN_PLAIN_ENGLISH_REPLACE" />
+        <option value="LanguageTool.EN.ACCEDE_TO" />
+        <option value="LanguageTool.EN.ACCOMMODATION" />
+        <option value="LanguageTool.EN.CURRENCY" />
+        <option value="LanguageTool.EN.IN_THE_FINAL_ANALYSIS" />
+        <option value="LanguageTool.EN.ACCENTUATE" />
+        <option value="LanguageTool.EN.YOU_ARE_REQUESTED" />
+        <option value="LanguageTool.EN.ON_THE_OCCASION_OF" />
+        <option value="LanguageTool.EN.WIKIPEDIA_CURRENTLY" />
+        <option value="LanguageTool.EN.MAKE_AN_ATTEMPT" />
+        <option value="LanguageTool.EN.READABILITY_RULE_DIFFICULT" />
+        <option value="LanguageTool.EN.APOSTROPHE_IN_DATES" />
+        <option value="LanguageTool.EN.MISSING_APOSTROPHE" />
+        <option value="LanguageTool.EN.ALONG_THE_LINES_OF" />
+        <option value="LanguageTool.EN.BELATED" />
+        <option value="LanguageTool.EN.NON_ENGLISH_CHARACTER_IN_A_WORD" />
+      </set>
+    </option>
+    <option name="checkingContext">
+      <CheckingContext>
+        <option name="isCheckInStringLiteralsEnabled" value="true" />
+        <option name="enabledLanguages">
+          <set>
+            <option value="JavaScript" />
+            <option value="XML" />
+          </set>
+        </option>
+      </CheckingContext>
+    </option>
+  </component>
+</application>

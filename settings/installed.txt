@@ -1,0 +1,4 @@
+AceJump
+IdeaVIM
+com.intellij.kubernetes
+org.jetbrains.IdeaVim-EasyMotion

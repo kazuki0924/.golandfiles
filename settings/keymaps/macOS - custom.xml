@@ -1,0 +1,29 @@
+<keymap version="1" name="macOS - custom" parent="macOS System Shortcuts">
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="NextEditorTab">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="PreviousEditorTab">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
+</keymap>

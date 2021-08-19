@@ -1,0 +1,8 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="Dockerfile.*" type="Dockerfile" />
+      <mapping pattern="Makefile" type="Makefile" />
+    </extensionMap>
+  </component>
+</application>
