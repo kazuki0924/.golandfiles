@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ExternalDependencies">
     <plugin id="AceJump" />
-    <plugin id="IdeaVIM" />
-    <plugin id="org.jetbrains.IdeaVim-EasyMotion" />
+    <plugin id="HighlightBracketPair" />
+    <plugin id="Key Promoter X" />
+    <plugin id="com.chylex.intellij.coloredicons" />
+    <plugin id="com.daniel-espinoza.inline-error" />
+    <plugin id="com.deflatedpickle.smoothscroller" />
+    <plugin id="com.jetbrains.sh" />
+    <plugin id="com.mallowigi" />
+    <plugin id="com.tabnine.TabNine" />
+    <plugin id="indent-rainbow.indent-rainbow" />
+    <plugin id="izhangzhihao.rainbow.brackets" />
+    <plugin id="lermitage.jetbrains.darcula.sombre" />
+    <plugin id="mobi.hsz.idea.gitignore" />
+    <plugin id="name.kropp.intellij.makefile" />
+    <plugin id="org.jetbrains.plugins.yaml" />
+    <plugin id="ski.chrzanow.foldableprojectview" />
+    <plugin id="tanvd.grazi" />
   </component>
 </project>
