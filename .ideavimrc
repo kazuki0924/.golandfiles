@@ -45,12 +45,12 @@ set ideavimsupport=dialog
 " general
 map <leader>a <Action>(GotoAction)
 map <leader>o <Action>(FileStructurePopup)
-" use built in search
-map / <Action>(Find)
-" but preserve ideavim search
-map g/ /
-map <leader>p <Action>(FindInPath)
-map <leader>c <Action>(CallHierarchy)
+
+" find
+map <leader>ff <Action>(GotoFile)
+map <leader>fp <Action>(FindInPath)
+map <leader>fr <Action>(RecentFiles)
+map <leader>fd <Action>(RecentProjectListGroup)
 
 " debug
 map <leader>db <Action>(ToggleLineBreakpoint)
@@ -66,35 +66,30 @@ map <leader>ex ;NERDTreeClose<CR>
 map <leader>et ;NERDTreeToggle<CR>
 map <leader>ef ;NERDTreeFind<CR>
 
-" recent
-map <leader>erf <Action>(RecentFiles)
-map <leader>erp <Action>(RecentProjectListGroup)
-
 " project view
-map <leader>ep <Action>(SelectInProjectView)
 map <leader>ep <Action>(SelectInProjectView)
 
 " easymotion
-map <leader>f <Plug>(easymotion-s)
-map <leader>e <Plug>(easymotion-f)
+map <leader><leader>s <Plug>(easymotion-s)
+map <leader><leader>f <Plug>(easymotion-f)
 
 " jump on code
 map gd <Action>(GotoDeclaration)
-map gs <Action>(GotoSuperMethod)
+map gT <Action>(GotoTypeDeclaration)
+map gs <Action>(GotoSymbol)
+map gS <Action>(GotoSuperMethod)
 map gi <Action>(GotoImplementation)
-map gf <Action>(GotoFile)
-map gb <Action>(JumpToLastChange)
+map gr <Action>(GotoRelated)
 map gu <Action>(ShowUsages)
 map gt <Action>(GotoTest)
+map gb <Action>(JumpToLastChange)
+map gc <Action>(CallHierarchy)
 " use builtin navigation actions
 map <C-o> <Action>(Back)
 map <C-i> <Action>(Forward)
-" but preserve ideavim defaults
-map g<c-o> <c-o>
-map g<c-i> <c-i>
 
 " code editing
-map <leader>p <Action>(PasteMultiple)
+map <leader>rp <Action>(PasteMultiple)
 map <leader>rr <Action>(RenameElement)
 map <leader>ri <Action>(ShowIntentionActions)
 map <leader>rf <Action>(ReformatCode)
@@ -137,18 +132,11 @@ map <leader>vd <Action>(Compare.LastVersion)
 
 " misc
 map <leader>ms ;source ~/.ideavimrc<CR>
-map <leader>ma ;action<CR>
 map <leader>ml ;actionlist<CR>
 
 " don't use Ex mode, use Q for formatting
 map Q gqap
 map Q gq
-
-" moving
-map [e <Action>(MoveLineUp)
-map ]e <Action>(MoveLineDown)
-map [s <Action>(MoveStatementUp)
-map ]s <Action>(MoveStatementDown)
 
 " load common basic keymaps
 source ~/.nvimfiles/vimscripts/keymap/common.vim
