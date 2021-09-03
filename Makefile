@@ -13,10 +13,10 @@ endif
 all: setup
 
 symlink:
-> @ ln -sfnv "$$HOME/.golandfiles/.ideavimrc" "$$HOME/.ideavimrc"
+> @ ln -sfnv ~/.golandfiles/.ideavimrc ~/.ideavimrc
 
-.PHONY: symlink
+.PHONY: setup
 
 setup: symlink
 
-.PHONY: setup
+.PHONY: symlink
