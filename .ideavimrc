@@ -61,10 +61,10 @@ map <leader>d<Space> <Action>(Resume)
 map <leader>dr <Action>(ChooseRunConfiguration)
 
 " NERDTree
-map <leader>ee ;NERDTreeFocus<CR>
-map <leader>ex ;NERDTreeClose<CR>
-map <leader>et ;NERDTreeToggle<CR>
-map <leader>ef ;NERDTreeFind<CR>
+map <leader>ee :NERDTreeFocus<CR>
+map <leader>ex :NERDTreeClose<CR>
+map <leader>et :NERDTreeToggle<CR>
+map <leader>ef :NERDTreeFind<CR>
 
 " project view
 map <leader>ep <Action>(SelectInProjectView)
@@ -117,10 +117,12 @@ map <leader>bp <Action>(PreviousTab)
 map <leader>bs <Action>(NewScratchFile)
 
 " pane
-map <leader>ws <Action>(SplitHorizontally)
+map <leader>wh <Action>(SplitHorizontally)
 map <leader>wv <Action>(SplitVertically)
-map <leader>wc <Action>(Unsplit)
-map <leader>wC <Action>(UnsplitAll)
+map <leader>wx <Action>(UnsplitAll)
+map <leader>wX <Action>(Unsplit)
+map <leader>wn <Action>(NextSplitter)
+map <leader>wp <Action>(PrevSplitter)
 
 " git
 map <leader>vh <Action>(Vcs.ShowTabbedFileHistory)
@@ -131,8 +133,9 @@ map <leader>vl <Action>(Vcs.Show.Log)
 map <leader>vd <Action>(Compare.LastVersion)
 
 " misc
-map <leader>ms ;source ~/.ideavimrc<CR>
-map <leader>ml ;actionlist<CR>
+map <leader>me :source ~/.ideavimrc<CR>
+map <leader>ms :source ~/.ideavimrc<CR>
+map <leader>ml :actionlist<CR>
 
 " don't use Ex mode, use Q for formatting
 map Q gqap

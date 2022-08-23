@@ -3,15 +3,15 @@
   <component name="ExternalDependencies">
     <plugin id="AceJump" />
     <plugin id="HighlightBracketPair" />
+    <plugin id="IdeaVIM" />
     <plugin id="Key Promoter X" />
-    <plugin id="com.chylex.intellij.coloredicons" />
-    <plugin id="com.daniel-espinoza.inline-error" />
+    <plugin id="com.github.copilot" />
     <plugin id="com.mallowigi" />
-    <plugin id="com.tabnine.TabNine" />
     <plugin id="indent-rainbow.indent-rainbow" />
     <plugin id="izhangzhihao.rainbow.brackets" />
     <plugin id="lermitage.jetbrains.darcula.sombre" />
     <plugin id="mobi.hsz.idea.gitignore" />
+    <plugin id="ru.adelf.idea.dotenv" />
     <plugin id="ski.chrzanow.foldableprojectview" />
   </component>
 </project>
